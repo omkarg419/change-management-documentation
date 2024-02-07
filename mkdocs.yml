@@ -1,0 +1,113 @@
+site_name: Change Management
+theme:
+  name: material
+  features:
+  
+  - search.highlight
+  - search.share
+  - search.suggest
+
+  plugins:
+    - typeset
+    - search
+  palette:
+    # palette toggle for dark mode
+    -  scheme: slate
+       primary: black 
+       accent: deep orange
+       toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+
+    # palette toggle for light mode
+    -  scheme: default
+       primary: teal 
+       accent: deep orange
+       toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+nav:
+  - 'HOME': index.md
+  - 'Intoduction':
+    - 'Definition of Change Management': chap_1/ind1.md
+    - 'The Need for Change in Organizations': chap_1/ind2.md
+    - 'Importance of Effective Change Management': chap_1/ind3.md
+  - 'Understanding Change':
+    - 'Types of Organizational Change': chap_2/test1.md
+    - 'Drivers of Change': chap_2/test2.md
+    - 'Challenges in Embracing Change': chap_2/test3.md
+  - 'The Change Management Process': 
+    - 'Planning for Change': chap_3/a1.md
+    - 'Implementation Strategies': chap_3/a2.md
+    - 'Monitoring and Evaluation': chap_3/a3.md
+  - 'Key Change Management Models':
+    - 'Lewins Change Management Model': chap_4/b1.md
+    - 'Kotters 8-Step Process for Leading Change': chap_4/b2.md
+    - 'ADKAR Model': chap_4/b3.md
+  - 'Leaderships Role in Change':
+    - 'The Role of Leadership in Successful Change': chap_5/c1.md
+    - 'Building a Change-Ready Culture': chap_5/c2.md
+    - 'Overcoming Leadership Challenges': chap_5/c3.md
+  - 'Communication in Change Management':
+    - ' Importance of Effective Communication': chap_6/d1.md
+    - ' Stakeholder Engagement': chap_6/d2.md
+    - ' Addressing Resistance to Change': chap_6/d3.md
+  - 'Employee Engagement and Empowerment':
+    - 'Fostering Employee Buy-In': chap_7/e1.md
+    - 'Employee Training and Development': chap_7/e2.md
+    - 'Recognizing and Rewarding Contributions': chap_7/e3.md
+  - 'Technology and Change':
+    - 'Leveraging Technology in Change Initiatives': chap_8/f1.md
+    - 'Digital Transformation and Its Impact': chap_8/f2.md
+    - 'Managing Technological Resistance': chap_8/f3.md
+  - 'Crisis Management and Change':
+    - 'Navigating Change in Crisis Situations': chap_9/g1.md
+    - 'Learning from Crisis for Future Change Initiatives': chap_9/g2.md
+    - 'Resilience and Adaptability in Change': chap_9/g3.md
+  - 'Measuring Success in Change Management':
+    - 'Key Performance Indicators (KPIs)': chap_10/h1.md
+    - 'Evaluating Return on Investment (ROI)': chap_10/h2.md
+    - 'Continuous Improvement': chap_10/h3.md
+  - 'Global Perspectives on Change Management':
+    - 'Cross-Cultural Considerations': chap_11/i1.md
+    - 'Managing Change in Multinational Organizations': chap_11/i2.md
+    - 'Global Trends in Change Management': chap_11/i3.md
+  - 'Ethical Considerations in Change':
+    - 'Ensuring Fairness and Equity': chap_12/j1.md
+    - 'Balancing Organizational and Individual Needs': chap_12/j2.md
+    - 'Ethical Leadership in Change': chap_12/j3.md
+  - 'Sustainability and Change':
+    - 'Integrating Sustainability into Change Initiatives': chap_13/k1.md
+    - 'Environmental and Social Responsibility': chap_13/k2.md
+    - 'Creating Lasting Positive Impact': chap_13/k3.md
+  - 'Case Studies in Change Management':
+    - 'Success Stories': chap_14/l1.md
+    - 'Lessons Learned from Failures': chap_14/l2.md
+    - 'Real-world Applications of Change Models': chap_14/l3.md
+  - 'Future Trends in Change Management':
+    - 'Emerging Technologies and Change': chap_15/m1.md
+    - 'Evolution of Leadership Styles': chap_15/m2.md
+    - 'Anticipating and Adapting to Future Challenges': chap_15/m3.md
+  - 'Conclusion'  :
+    - 'Recapitulation of Key Concepts': chap_16/n1.md
+    - 'The Ongoing Evolution of Change Management': chap_16/n2.md
+    - 'Encouraging a Culture of Continuous Improvement': chap_16/n3.md
+  
+
+
+
+ 
