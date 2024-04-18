@@ -1,4 +1,6 @@
 site_name: Change Management
+site_url: https://omkarg419.github.io/change-management-documentation/
+site_author: omkar gupta
 theme:
   name: material
   features:
